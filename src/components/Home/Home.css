@@ -1,0 +1,24 @@
+.container{
+    margin: 1rem 7rem;
+}
+.home-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 1rem;
+    align-items: center;
+}
+.color-text{
+    color: #026BBB;
+}
+.btn{
+    background: #026BBB;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.image-container img{
+    width: 500px;
+}
