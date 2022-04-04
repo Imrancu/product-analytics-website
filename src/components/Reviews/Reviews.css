@@ -1,11 +1,15 @@
-<<<<<<< HEAD
 .card-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
-=======
-.hover:hover{
-  text-decoration: underline;
-  cursor: pointer;
->>>>>>> c4d21ec7cffc18c945cb9e511761fe60a0b6c012
+}
+.btn{
+  background: #026BBB;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }

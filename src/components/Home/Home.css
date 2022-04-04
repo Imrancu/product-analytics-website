@@ -1,9 +1,5 @@
 
 .home-container{
-<<<<<<< HEAD
-=======
-    
->>>>>>> c4d21ec7cffc18c945cb9e511761fe60a0b6c012
     margin: 1rem 7rem;
 }
 .hero-section{
@@ -29,11 +25,13 @@
     border: 1px solid #026BBB;
     color: #026BBB;
     border-radius: 5px;
-<<<<<<< HEAD
 }
 .customer-review{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-=======
->>>>>>> c4d21ec7cffc18c945cb9e511761fe60a0b6c012
+}
+.customer-review p{
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
