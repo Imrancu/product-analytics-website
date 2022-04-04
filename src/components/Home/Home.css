@@ -1,10 +1,13 @@
 
 .home-container{
+    
+    margin: 1rem 7rem;
+}
+.hero-section{
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 1rem;
     align-items: center;
-    margin: 1rem 7rem;
 }
 .color-text{
     color: #026BBB;
@@ -18,6 +21,9 @@
     margin-top: 30px;
     font-size: 20px;
 }
-.image-container img{
-    width: 500px;
+.btn:hover{
+    background: none;
+    border: 1px solid #026BBB;
+    color: #026BBB;
+    border-radius: 5px;
 }
