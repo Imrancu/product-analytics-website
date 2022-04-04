@@ -1,6 +1,6 @@
 # Shoes Hub
 
-This is developed by Md Imran. Explore Here [Shoes Hub](https://github.com/facebook/create-react-app).
+This is developed by Md Imran. Explore Here [Shoes Hub](https://assignment-9-imrancu.netlify.app/).
 
 ## Project Description
 
