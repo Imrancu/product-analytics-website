@@ -1,7 +1,11 @@
 import React from 'react';
 import useReview from '../../hooks/useReview';
 import Shoes from '../../images/shoes.png';
+<<<<<<< HEAD
 import Review from '../Review/Review';
+=======
+import Reviews from '../Reviews/Reviews';
+>>>>>>> c4d21ec7cffc18c945cb9e511761fe60a0b6c012
 import './Home.css';
 
 const Home = () => {
@@ -18,12 +22,17 @@ const Home = () => {
                     <img src={Shoes} alt="" />
                 </div>
             </section>
+<<<<<<< HEAD
                 <h2 className='hover text-5xl font-bold text-gray-600 mb-7'>Customer Reviews</h2>
             <section className='customer-review'>
                 {
                     reviews.slice(0, 3).map(review => <Review key={review.id} review={review}/>)
                 }
                 
+=======
+            <section>
+                <Reviews></Reviews>
+>>>>>>> c4d21ec7cffc18c945cb9e511761fe60a0b6c012
             </section>
         </div>
     );

@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 .card-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
+=======
+.hover:hover{
+  text-decoration: underline;
+  cursor: pointer;
+>>>>>>> c4d21ec7cffc18c945cb9e511761fe60a0b6c012
 }
